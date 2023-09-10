@@ -9,6 +9,7 @@ APIKEY = keys[0].strip()
 APISECRET = keys[1].strip()
 PASS = keys[2].strip()
 BASE_URL = 'https://www.okx.com'
+pk.close()
 
 def send_signed_request(http_method, url_path, payload={}):
 
